@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator TOP</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main">
+        <div id="heading">
+            <h1 id="heading">
+                CALCULATOR
+            </h1>
+        </div>
+        <div id="calculator">
+            <div id="display">
+                <p id="reserve-text"></p>
+
+                <p id="display-text"></p>
+            </div>
+            <div id="buttons">
+                    <button  id="clear">C</button>
+                    <button onclick="getButton(event)"  id="zero">0</button>
+                    <button onclick="getButton(event)" id="one">1</button>
+                    <button onclick="getButton(event)" id="two">2</button>
+                    <button onclick="getButton(event)" id="three">3</button>
+                    <button onclick="getButton(event)" id="four">4</button>
+                    <button onclick="getButton(event)" id="five">5</button>
+                    <button onclick="getButton(event)" id="six">6</button>
+                    <button onclick="getButton(event)" id="seven">7</button>
+                    <button onclick="getButton(event)" id="eight">8</button>
+                    <button onclick="getButton(event)"id="nine">9</button>
+                    <button onclick="add()" id="add">+</button>
+                    <button onclick="subtract()" id="subtract">-</button>
+                    <button onclick="multiply()" id="multiply">*</button>
+                    <button onclick="divide()" id="divide">/</button>
+                    <button onclick="operate()" id="equals">=</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
